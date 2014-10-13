@@ -17,6 +17,24 @@ p {
 }
 
 
+li a {
+	color: red;	
+	background-color: orange;
+}
+
+li a:hover {
+	color: blue;	
+}
+
+li a:active {
+	color: green;	
+}
+
+.coffee > h2 {
+	color:orange;
+}
+
+
 	header {
 	
 

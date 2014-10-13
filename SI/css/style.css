@@ -1,19 +1,27 @@
-header {
+body {
+margin: 0px;
+padding: 0px;
+}
+	header {
 	
 
 }
 
 #logo {
-	color: rgb(0,0,0);
+	color: red;
 
 }
 
 .amazing {
-	color: red;
+	color: rgb(210,54,88);
 }
 
 .reg-bg {
-	
+	background color: rgb(135,211,124);
+}
 
 
+section, aside{background color: ;
+	margin:10px;
+	padding:50px;
 }
