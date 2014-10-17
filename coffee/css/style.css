@@ -1,14 +1,16 @@
 body {
 margin: 0px;
 padding: 0px;
-background-color: #d0e4fe;
+background-color: black;
 }
 
 
 
 h1 {
-	color: orange;
+	color: white;
     text-align: center;
+    background-image: url("www.jonbstrong.com/coffee/images/coffeebeans4.jpg") width=100%;
+    background-color: #cccccc;
 }
 
 p {
@@ -17,8 +19,9 @@ p {
 }
 
 
+
 li a {
-	color: red;	
+	color: brown;	
 	background-color: orange;
 }
 
@@ -31,7 +34,7 @@ li a:active {
 }
 
 .coffee > h2 {
-	color:orange;
+	color:brown;
 }
 
 
@@ -40,21 +43,46 @@ li a:active {
 
 }
 
-#top-menu {
+.menu {
 	color: red;
+	display:inline;
+	position:fixed;
+	left: 400px;
+    top: 300px;
+
+}
+
+
+
+.menu ul li{
+	color: red;
+	display:inline;
+	text-align: center;
 
 }
 
 .coffee {
-	color: rgb(210,54,250);
+	color: black;
 }
 
 #content {
-	background-color: rgb(135,211,124);
+	background-color: white;
 }
 
 
 section, aside{background color: ;
 	margin:10px;
 	padding:50px;
+}
+
+footer{
+	text-align: center;
+	color: #E88D0C;
+}
+
+article{
+
+
+
+
 }
