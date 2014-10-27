@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        
+        <title>Documentation</title>
+
+         <link rel="stylesheet" type="text/css" href="assets/normalize.min.css">
+         <link rel="stylesheet" type="text/css" href="assets/main.css">
+         <link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+         <script src="assets/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+    
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    
+	<!-- Start Wrapper -->    
+	<div class="wrapper clearfix">
+	
+		<!-- Start Sidebar -->
+		<aside class="menu">
+			<div class="logo"><img src="assets/img/Help-logo.jpg" alt="Kenny Williams" /></div>
+			<ul id="nav">
+				<li><a href="#">Introduction</a></li>
+				<li><a href="#">Installation</a></li>
+				<li><a href="#">Changing Logo's</a></li>
+				<li><a href="#">Theme Skin</a></li>
+				<li><a href="#">Layout Options</a></li>
+				<li><a href="#">Revolution Slider</a></li>
+				<li><a href="#">Theme UI Elements</a></li>
+				<li><a href="#">Contact Map</a></li>
+				<li><a href="#">Contact Form</a></li>
+				<li><a href="#">Google Analytics</a></li>
+				<li><a href="#">Resources</a></li>
+			</ul>	
+		</aside>
+		
+		
+		
+		<!-- Start Main Column -->
+		<div class="main">
+		
+		<!-- Start Header -->
+		<header class="clearfix">
+			<div class="date">Version 1.0</div>
+			<div class="social-links">
+				<ul>
+					<li><a href="https://www.facebook.com/make.lemonade.co" target="_blank" class="facebook">Facebook</a></li>
+					<li><a href="https://twitter.com/makelemonadeco" target="_blank" class="twitter">Twitter</a></li>
+					<li><a href="http://themeforest.net/user/KennyWilliams" target="_blank" class="envato">Envato</a></li>
+				</ul>	
+			</div>
+		</header>
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Introduction</h1>
+			<article>
+				<p><strong>Welcome to the Sport Website Template and documentation. </strong></p>
+				
+				<p>Thanks for purchasing this template. Please read the documentation carefully before sending a support request, the chance you could find the answer here is big and would save you a lot of time! If you're having an issue with the theme and can't find the answer here, then please send me an email through my <a href="http://themeforest.net/user/KennyWilliams">profile page and I will try to answer you as quick as possible..</a></p>
+				<p> Use the menu to left side to navigate quickly through the documentation. </p>
+				
+			
+			</article>
+			<aside>
+				<p><strong>Note:</strong></p>
+				<p>This template is not only a responsive theme meaning it is optimised for multiple device sizes, it is also retina ready.</p>
+			</aside>
+			
+		</section>
+		
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Installation</h1>
+			<article>
+				<p>To install this template onto your web server, you need to transfer the web files up to the root directory of your web host. Either use an FTP program like <a href="https://filezilla-project.org">Filezilla</a>, or upload files through the cpanel of your hosting account.</p>
+				<p><strong>This is a HTML template, not installable into CMS's like Wordpress, etc</strong></p>	
+			</article>
+			
+			<aside>
+				<p><strong>Note:</strong></p>
+				<p>Filezilla is a free FTP program, available here: <a href="https://filezilla-project.org">Filezilla</a></p>
+			</aside>
+		</section>
+		
+		
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Changing Logo's</h1>
+			<article>
+				<p>Images and logo's are found in the "img" folder. Simply replace the logo files with your own, it's easiest to just overwrite the existing logo files with your own logo. Remember to use HiDPI versions.</p>
+				 <p>Because this theme is Retina ready, and Retina Images are downscaled for Retina screens, you may have to update the size of the allocated area for your logo to avoid distortion or cropping. To do this open the styles.css file and look for</p> 
+<pre>/* ===================================================
+   Logos
+================================================ */ </pre> 
+				<p>Here you can see max width properties. Match the height and width to suite the size of your logo when halved or divided by 2. </p>
+			</article>
+			
+			<aside>
+				<p><strong>Example:</strong></p>
+				<p>You will see that the provided logo is actually 302px wide, however we half the size in our CSS to 151px wide to accomodate for Standard and Retina Screens simultaneously.</p>
+			</aside>
+		</section>
+		
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Updating Skin Styles</h1>
+			<article>
+				<p>This template's styles have been created to make all expected styles easily accessible and updatebale. In the CSS folder you can find the skin-1.css or skin-2.css files. The skin file has been carefully structured so that updating all colors and fonts is as minimal as possible. </p>
+				
+				<p>When opening the skin files, please note the table of contents in relation to which element you want to update. The skin file is also where all fonts are declared.</p>
+				
+				<p> Note: Update the hexadecimal colour values to create your own colour scheme.</p>			
+			</article>
+			
+			<aside>
+				<div class="mosaic-block fade">
+					<a href="assets/img/colours.jpg" class="mosaic-overlay fancybox" data-fancybox-group="gallery" title="Insert Your Title"></a>
+					<div class="mosaic-backdrop"><img src="assets/img/colours.jpg" alt="Mock" /></div>
+				</div>
+			</aside>
+		</section>
+		
+		
+		
+		
+		<!-- Start Section -->
+				<section class="clearfix section">
+					<h1>Layout Options</h1>
+					<article>
+						<h6>Boxed or Full Screen</h6>
+						<p>This theme has the ability to be full width or boxed. By default it comes full width, however to change to boxed version simply update the css declaration in your html pages from full.css to boxed.css</p>
+
+						
+						
+					</article>
+					
+					<aside>
+						<div class="mosaic-block fade">
+							<a href="assets/img/layout.jpg" class="mosaic-overlay fancybox" data-fancybox-group="gallery" title="Insert Your Title"></a>
+							<div class="mosaic-backdrop"><img src="assets/img/layout.jpg" alt="Mock" /></div>
+						</div>
+					</aside>
+				</section>
+		
+		
+		
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Slider Revolution</h1>
+			<article>
+				<p><strong>A premium jQuery plugin is used to control the masthead slider.</strong></p>
+				<p><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848?ref=KennyWilliams">Slider Revolution</a> has its own documentation that can be found in the following directory: js/ rs-plugin / documentation / documentation.html</p>
+				<p>A basic instance of the slider has been implemented in the home pages, if you wish to expand on this with additional transitions, and additional captions, please refer to the Slider Revolution documentation.
+				
+			</article>
+			
+			<aside>
+				<p><strong>Useful Tip:</strong></p>
+				<p>Slider Revolution has a range of alternative slide transitions that can be implemented.</a></p>
+			</aside>
+		</section>
+		
+		
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Theme UI Elements</h1>
+			<article>
+				<p>Included with this template is a styles.html file that covers all the major layout and styling options for columns, form elements, quotes, images, tables and other html features.</p>
+				<p>The Styles HTML file is well structured to allow you to copy and paste elements you want to use in your standard web pages. The Style page is intended to be used as a master reference file for layout and style options. Ideally you should not edit the Styles file, instead once copied and pasted, perform edits on the website pages you intend to make live. </p>
+				
+				<h6>Home Page Parallax Effect</h6>
+				<p>You can control the speed of the home page parallax section by update the value on data-stellar-background-ratio="1.35". This ratio controls the speed at which the image scrolls. Higher the ratio the faster the speed.</p>
+						
+			</article>
+			
+			<aside>
+				<p><strong>Useful Tip:</strong></p>
+				<p>Kinda a no brainer but don't include the styles.html file as one of your web pages.</a></p>
+			</aside>
+		</section>
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Contact Map</h1>
+			<article>
+				<p>The Google map on the contact page can be easily updated to your own Google map by doing the following.</p>
+				<ul>
+					<li>Go to <a href="maps.google.com">maps.google.com</a></li>
+					<li>Enter in your desired location</li>
+					<li>Click on the link icon and select - Paste HTML to embed in website</li>
+					<li>Paste the map code snippet into "Outter Wrapper / Feature Map"</li>
+					<li>Update the height attribute on the iframe to suite your own desires, recommended 550 high</li>
+				</ul>	 		
+				
+			</article>
+			
+			<aside>
+				<p><strong>Useful Tip:</strong></p>
+				<p>For a clean sleek map header, Remove the additional link to "View Larger Map" that comes in the code snippet.</p>
+			</aside>
+		</section>		
+			
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Contact Form</h1>
+			<article>
+				<p>The contact form is set up to work on most web servers, the form relies on PHP (as current as possible) being installed on the server in order to operate.</p>
+				<p>Included with this template is 2 contact form variations, one with recaptcha and one without. <a href="https://www.google.com/recaptcha/intro/index.html">See Google Recaptcha</a></p>
+				
+				<h6>Standard Contact Page</h6> 
+				<p>If you choose to use the non-recaptcha contact.html form all that is left for you to do is to update the processForm.php file in the php folder and include your own email address in order to receive emails from the contact form. When updating the processForm.php file look for the following:</p>
+				
+<pre>
+// --------------------------------------//
+// Send the email // INSERT YOUR EMAIL HERE
+$to = "your@email.com";
+// --------------------------------------//
+</pre>
+			
+			
+			<h6>Recaptcha Contact Page</h6> 
+			<p>If you are using the recaptcha contact.php form you will need to update a couple more items. Firstly go sign up to use Googles recaptcha Service, <a href="https://www.google.com/recaptcha/admin#whyrecaptcha">see link here</a></p>
+			
+			<p>Once signup to Recaptcha, and having gone through the process of defining a domain, you will be provided with both Public and Private Keys to use in your web pages.</p> 
+			<p>Now open the processForm-wcaptcha.php file, look for the following  /* Enter Private Key Below */ , paste your private key (number) in place of the "*****".</p>
+			<p>Next in the same processForm-wcaptcha.php file look for the following and update your email address.</p>
+
+<pre>
+// --------------------------------------//
+// Send the email // INSERT YOUR EMAIL HERE
+$to = "your@email.com";
+// --------------------------------------//
+</pre>		
+			<p>Lastly open your contact.php file and look for / Recaptcha Public Key, around line 298, paste in you public key (number) in place of the "*****". <strong>Note:</strong> the recaptcha contact form will only work once on a web server.</p>		
+				
+			</article>
+			
+			<aside>
+				<p><strong>Note:</strong></p>
+				<p>The contact form is delicate, to avoid errors, please do not edit anything other than this email address unless you know what your doing.</p>
+			</aside>
+		</section>
+		
+		
+		
+		
+				
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Google Analytics</h1>
+			<article>
+				<p>At the very bottom of the HTML you will find a Google Analytics code snippet to use. Simply replace the UA ID number with your own to set up Google Analytics and start receiving stats and figures about your webpage, or delete this whole section and copy and paste in the code snippet Google provides.</p>
+				<p>Also DO NOT FORGET to update the title and description of your web page. You can find these at the very top of the HTML file, just look for</p>
+				<pre>&lt;title>Sport&lt;/title><br/> &lt;meta name="description" content=""></pre> and update them to you own apps name and a description between the content="" for search engines.
+				
+				
+				
+			</article>
+			
+			<aside>
+				<p><strong>Useful Tip:</strong></p>
+				<p><a href="http://www.google.com/analytics/">Google Analytics</a> not only lets you measure sales and conversions, but also gives you fresh insights into how visitors use your site</p>
+			</aside>
+		</section>
+		
+		
+		
+		
+		
+		
+		<!-- Start Section -->
+		<section class="clearfix section">
+			<h1>Resources</h1>
+			<article>
+				<h6>Retina Resource</h6>
+				<p>For detailed information about designing for HiDPI or Retina websites, I suggest taking a look at: <a href="http://retinafy.me" target="_blank"> retinafy.me</a></p>
+				
+				
+				<h6>Image Optimization Resource</h6>
+				<p>For optimizing image even further from Photoshop, I suggest taking a look at the Mac resource: <a href="http://imageoptim.com" target="_blank"> Image Optim</a></p>
+				
+				<h6>Icon Resource</h6>
+				<p>The icons used in the theme are from the Uicons Icon set and additional ones can be purchased here: <a href="http://uicons.co" target="_blank"> Uicons Here</a></p>
+				
+			</article>
+			
+			<aside>
+				<p><strong>Note:</strong></p>
+				<p>This theme is not only a responsive theme meaning it is optimised for multiple device sizes, Sport is also retina ready, meaning no more blurry images on your HiDPI and retina displays.</p>
+			</aside>
+		</section>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- End main -->
+		</div>
+	</div>	 
+
+		
+	<!-- Start Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+    <script type="text/javascript" src="assets/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+    <script type="text/javascript" src="assets/mosaic.1.0.1.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.pagescroller.lite.js"></script>
+    <script type="text/javascript" src="assets/main.js"></script>
+	</body>
+</html>

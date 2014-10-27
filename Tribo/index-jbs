@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!-- This is JBS's copy - I am just playing around to see what happens when you change parts or leave out all the css styling-->
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Layout 1</title>
+
+	<!-- Normalize.css imported from a CDN. -->
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" />
+	<!-- 2 webfonts imported from Google WebFont -->
+	<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Our main style.css stylesheet. Is better to list your own style at the bottom to avoid conflicts and unexpected overrides from other stylesheets -->
+	<!--link href="css/style.css" media="all" rel="stylesheet" /-->
+
+</head>
+<body>
+
+	<!-- Full-width & Full-height header -->
+	<header class="mainHeader">
+
+		<h1>This is the amazing Layout 1</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	</header>
+
+
+	<!-- Content area with 3 columns -->
+	<section class="row">
+		
+		<div class="col-1">
+			<h3>Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="col-1">
+			<h3>Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="col-1">
+			<h3>Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+
+	</section>
+
+	<!-- Parallax-effect section -->
+	<div class="parallax">
+		<h2>Hey, This is a parallax effect!</h2>
+	</div>
+
+
+	<!-- Content area with 2 columns -->
+	<section class="row">
+		
+		<div class="col-2">
+			<h3>Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="col-2">
+			<h3>Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="row">
+
+		<div class="col-1">
+			<h3>Company</h3>
+			<ul>
+				<li>Team</li>
+				<li>Mission</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+
+		<div class="col-1">
+			<h3>Products</h3>
+			<ul>
+				<li>Product 1</li>
+				<li>Product 2</li>
+				<li>Product 3</li>
+			</ul>
+		</div>
+
+		<div class="col-1">
+			<h3>Socials</h3>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Linkedin</li>
+			</ul>
+		</div>
+		
+	</footer>
+
+
+
+</body>
+</html>

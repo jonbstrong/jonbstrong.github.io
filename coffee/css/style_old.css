@@ -1,0 +1,100 @@
+body {
+margin: 0px;
+padding: 0px;
+ background-color: black; 
+}
+
+h1 {
+	color: white;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+   /* 
+   background-image: url("www.jonbstrong.com/coffee/images/coffeebeans4.jpg") width=100%;
+    background-color: #cccccc;
+    */
+}
+
+h1.funkyfont{
+
+	font-family: 'Cookie', cursive;
+	color: #C49645;
+	text-decoration: underline;
+
+
+}
+
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+
+
+li a {
+	color: #C49645;	
+	background-color: #36220F;
+	padding:15px;
+}
+
+li a:hover {
+	color: blue;	
+}
+
+li a:active {
+	color: green;	
+}
+
+.coffee > h2 {
+	color:brown;
+}
+
+
+	header {
+	
+
+}
+
+.menu {
+	color: red;
+	display:inline;
+	position:fixed;
+	left: 300px;
+    top: 300px;
+
+}
+
+
+
+.menu ul li{
+	color: red;
+	display:inline;
+	text-align: center;
+
+}
+
+.coffee {
+	color: black;
+}
+
+.content {
+	background-color: white;
+}
+
+
+section, aside{background color: ;
+	margin:10px;
+	padding:50px;
+}
+
+footer{
+	text-align: center;
+	color: #C49645;
+}
+
+article{
+
+
+
+
+}
