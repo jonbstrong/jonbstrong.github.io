@@ -47,6 +47,12 @@ p {
 	font-weight: 400;
 }
 
+header h1, {
+	color:white;
+
+
+}
+
 
 /* (Very) simple grid */
 .row {
@@ -73,7 +79,7 @@ p {
 
 .mainHeader {
 	min-height: 100%;
-	background-image: url('../images/background.jpg');
+	background-image: url('../images/JBS-radio.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed; /* This is what creates the parallax effect!!! */
