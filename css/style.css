@@ -85,10 +85,12 @@ header h1, {
 	background-attachment: fixed; /* This is what creates the parallax effect!!! */
 	padding: 80px 20px;
 	text-align: center;
+	color:white;
 }
 
 	.mainHeader h1 {
 		font-size: 35px;
+
 	}
 
 	.mainHeader p {
