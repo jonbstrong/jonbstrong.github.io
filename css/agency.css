@@ -337,6 +337,8 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+
+
 @media(min-width:768px) {
     section {
         padding: 100px 0;
@@ -663,6 +665,11 @@ section#contact {
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#contact h3{
+    color:white;
+    margin-bottom: 30px;
 }
 
 section#contact .section-heading {
