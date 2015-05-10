@@ -661,9 +661,119 @@ aside.clients img {
     margin: 50px auto;
 }
 
+
+
+section#blog {
+    background-color: #222;
+    background-image: url(../img/sunset.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#blog h3{
+    color:white;
+    margin-bottom: 10px;
+}
+
+section#blog .section-heading {
+    color: #fff;
+    margin-bottom: 75px;
+}
+
+section#blog .form-group {
+    margin-bottom: 25px;
+}
+
+section#blog .form-group input,
+section#blog .form-group textarea {
+    padding: 20px;
+}
+
+section#blog .form-group input.form-control {
+    height: auto;
+}
+
+section#blog .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#blog .form-control:focus {
+    border-color: #0D94FF;
+    box-shadow: none;
+}
+
+section#blog::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#blog:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#blog::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#blog:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#blog .text-danger {
+    color: #e74c3c;
+}
+
+section#blog .post-link {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+#blog .post .content {
+  z-index: 2;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  pointer-events: none;
+}
+
+#blog .post {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  color: #fff;
+  min-height: 100px;
+}
+
+#blog .posts:hover .overlay {
+  opacity: 0.3;
+}
+
+#blog p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+
+
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/blog4.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
