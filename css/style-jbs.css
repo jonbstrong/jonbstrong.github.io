@@ -1,9 +1,6 @@
 /*
 
 
-This is JBS' copy - adding comments where I don't understand stuff!!!!
-
-
 EXPLANATION
 
 Since we have imported Normalize.css in the HEAD of our page, we don't have to worry 
@@ -23,8 +20,6 @@ Sigmar => https://www.google.com/fonts#UsePlace:use/Collection:Sigmar+One
 
 /* Defaults 
 
-JBS: what the heck is this????;
-I am guessing the * means everything before and after. Which would apply to sections/divs/articles?
 */
 *, *:before, *:after {
 	-moz-box-sizing:border-box;
@@ -32,10 +27,6 @@ I am guessing the * means everything before and after. Which would apply to sect
 	box-sizing:border-box
 }
 
-
-/*
-why min-height? including body and html? What does this effect?
-*/
 
 html, body {
 	min-height: 100%;
@@ -95,10 +86,6 @@ p {
 /* Header */
 
 .mainHeader {
-
-	/*
-	JBS: why have you named it main header? It's not a main header...
-	*/
 
 
 	min-height: 100%;
