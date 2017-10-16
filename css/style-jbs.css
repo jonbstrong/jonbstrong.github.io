@@ -3,9 +3,9 @@
 
 EXPLANATION
 
-Since we have imported Normalize.css in the HEAD of our page, we don't have to worry 
-about the "normalization" of the page for different browsers. Also, because we have 
-imported 2 webfonts from the Google WebFonts directory, we can use them straightaway 
+Since we have imported Normalize.css in the HEAD of our page, we don't have to worry
+about the "normalization" of the page for different browsers. Also, because we have
+imported 2 webfonts from the Google WebFonts directory, we can use them straightaway
 in our stylesheet.
 
 For further reference, you can find the two fonts imported here:
@@ -18,7 +18,7 @@ Sigmar => https://www.google.com/fonts#UsePlace:use/Collection:Sigmar+One
 
 
 
-/* Defaults 
+/* Defaults
 
 */
 *, *:before, *:after {
