@@ -671,7 +671,7 @@ aside.clients img {
 	    background-repeat: no-repeat;
 	}
 
-  #newsletter h3,p{
+  section#newsletter h3,p{
       color:white;
       margin-bottom: 10px;
   }
@@ -925,6 +925,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    color:#000000;
 }
 
 .portfolio-modal .modal-content p.item-intro {
